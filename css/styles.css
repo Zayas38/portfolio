@@ -590,13 +590,13 @@ img {
         margin-bottom: 20px;
     }
 
-    /* .work {
+    .work {
         height: 100%;
     }
 
     .extra {
         height: 100%;
-    } */
+    }
 
     .work .heading h2 {
         font-size: 3rem;
@@ -611,11 +611,17 @@ img {
         padding: 10px;
     }
 
-    /* .work-content-box {
-        flex: 1 0 21%;
+    .work-content-box {
+        display: flex;
+        flex-direction: column;
         text-align: center;
-        justify-content: space-evenly;
-    } */
+        justify-content: center;
+        
+    }
+
+    .work-content-box img {
+        margin: 0 auto;
+    }
 
     .contact .heading h2 {
         padding-bottom: 25px;
