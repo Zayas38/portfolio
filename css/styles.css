@@ -602,9 +602,9 @@ img {
         font-size: 3rem;
     }
 
-    .work .content .work-content-box{
+    /* .work .content .work-content-box{
         height: 10px;
-    }
+    } */
 
     .work .content .work-content-box {
         width: 100%;
@@ -615,7 +615,7 @@ img {
         display: flex;
         flex-direction: column;
         text-align: center;
-        justify-content: center;
+        justify-content: flex-start;
         flex-wrap: nowrap;
         
     }
