@@ -602,15 +602,17 @@ img {
         font-size: 3rem;
     }
 
-    /* .work .content .work-content-box{
-        height: 10px;
-    } */
 
-    /* .work .content .work-content-box {
+    .work .content .work-content-box {
         min-width: 100%;
+        flex: 0%;
     }
 
-    .work-content-box img {
+    .work .content .work-content-box p {
+        padding-bottom: 30px;
+    }
+
+    /* .work-content-box img {
         margin: 0 auto;
     } */
 
