@@ -201,7 +201,7 @@ img {
 .work .content {
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -609,7 +609,12 @@ img {
     .work .content .work-content-box {
         width: 100%;
         padding: 10px;
+    }
 
+    .work-content-box {
+        /* flex: 1 0 41%; */
+        text-align: center;
+        justify-content: space-evenly;
     }
 
     .contact .heading h2 {
