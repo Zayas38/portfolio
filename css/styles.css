@@ -173,13 +173,6 @@ header.sticky ul li a {
     margin-bottom: 50px;
 }
 
-/* CONTENT_BOX P TARGETS ALL P  */
-
-/* .content-box p {
-    display: flex;
-    justify-content: center;
-} */
-
 .width50 {
     min-width: 50%;
 }
@@ -229,12 +222,6 @@ img {
     min-width: 100%;
     min-height: 100vh;
 }
-.extra img {
-    /* transition: 0.3s; */
-    opacity: 0.5;
-}
-
-
 
 .extra img:hover {
     cursor: pointer;
@@ -302,14 +289,6 @@ img {
     100% { -webkit-transform: matrix3d(2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
   }
   
-  
-  
-  
-
-/* .extra img:hover {
-    transform: scale(1.1);
-    opacity: 1;
-} */
 
 
 .extra .content {
@@ -590,14 +569,6 @@ img {
         margin-bottom: 20px;
     }
 
-    /* .work {
-        height: 100%;
-    } */
-
-    /* .extra {
-        height: 100%;
-    } */
-
     .work .heading h2 {
         font-size: 3rem;
     }
@@ -611,10 +582,6 @@ img {
     .work .content .work-content-box p {
         margin: -30px 0 30px 0;
     }
-
-    /* .work-content-box img {
-        margin: 0 auto;
-    } */
 
     .contact .heading h2 {
         padding-bottom: 25px;
@@ -632,5 +599,9 @@ img {
         border-radius: 5%;
         letter-spacing: 1.2px;
         font-size: 14px;
+    }
+
+    br {
+        display: none;
     }
 }
