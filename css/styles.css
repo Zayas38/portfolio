@@ -590,13 +590,13 @@ img {
         margin-bottom: 20px;
     }
 
-    .work {
+    /* .work {
         height: 100%;
-    }
+    } */
 
-    .extra {
+    /* .extra {
         height: 100%;
-    }
+    } */
 
     .work .heading h2 {
         font-size: 3rem;
@@ -606,23 +606,13 @@ img {
         height: 10px;
     } */
 
-    .work .content .work-content-box {
-        width: 100%;
-        padding: 10px;
-    }
-
-    .work-content-box {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: flex-start;
-        flex-wrap: nowrap;
-        
+    /* .work .content .work-content-box {
+        min-width: 100%;
     }
 
     .work-content-box img {
         margin: 0 auto;
-    }
+    } */
 
     .contact .heading h2 {
         padding-bottom: 25px;
