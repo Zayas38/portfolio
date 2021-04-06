@@ -616,6 +616,7 @@ img {
         flex-direction: column;
         text-align: center;
         justify-content: center;
+        flex-wrap: nowrap;
         
     }
 
