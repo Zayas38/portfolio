@@ -590,13 +590,13 @@ img {
         margin-bottom: 20px;
     }
 
-    .work {
+    /* .work {
         height: 100%;
     }
 
     .extra {
         height: 100%;
-    }
+    } */
 
     .work .heading h2 {
         font-size: 3rem;
@@ -607,15 +607,15 @@ img {
     }
 
     .work .content .work-content-box {
-/*         width: 100%; */
+        width: 100%;
         padding: 10px;
     }
 
-    .work-content-box {
-        /* flex: 1 0 41%; */
+    /* .work-content-box {
+        flex: 1 0 21%;
         text-align: center;
         justify-content: space-evenly;
-    }
+    } */
 
     .contact .heading h2 {
         padding-bottom: 25px;
