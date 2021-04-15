@@ -7,11 +7,17 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Lexend', sans-serif;
-    color: #0d7377;
 }
 
 #home {
     padding: 0 0 350px 100px;
+}
+
+h1, h2, h3 {
+    color: #0d7377;
+}
+p {
+    color: #fff;
 }
 
 
@@ -30,6 +36,7 @@
     color: #fff;
     font-weight: 500;
     line-height: 1.5em;
+    padding-top: 90px;
 }
 
 .banner h2 span {
@@ -83,7 +90,7 @@ header {
 }
 
 header.sticky {
-    background: #212121;
+    background-color: #212121;
     opacity: 0.9;
     color: #0d7377;
     padding: 20px 100px;
@@ -142,14 +149,26 @@ header.sticky ul li a {
 .heading {
     width: 100%;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     color: #111;
 }
 
 .heading h2 {
-    padding: 75px;
+    padding: 30px;
     font-weight: 600;
     font-size: 4rem;
+}
+
+ #name {
+    color: #fff;
+    font-size: 5rem;
+}
+
+
+  span {
+    color: #0d7377;
+    display: none;
+    
 }
 
 .about-me {
@@ -159,9 +178,13 @@ header.sticky ul li a {
     background-size: cover;
 }
 
+.about-me h2 {
+    padding-top: 50px;
+}
+
 .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .content-box {
@@ -173,19 +196,27 @@ header.sticky ul li a {
     margin-bottom: 50px;
 }
 
+
+
 .width50 {
     min-width: 50%;
 }
 
+#my-photo img {
+    position: relative;
+    border-radius: 15px;
+    /* bottom: 30px; */
+}
+
 img {
     max-width: 80%;
-    padding-bottom: 50px;
 }
 
 .work {
     background: url(../images/wallpapersden.com_grey-background-and-colorful-circle_3840x2160.jpg);
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh;    ------------- TO CHANGE WHEN I ADD MORE WEBSITES ----------------     */
+    padding-bottom: 30px; /* ------------ TO DELETE PADDING WHEN I'LL ADD MORE WEBSITES ----------- */
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -196,6 +227,7 @@ img {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .work-content-box {
@@ -204,16 +236,32 @@ img {
     justify-content: space-evenly;
 }
 
+.work-content-box a .shopify-logo{
+    padding: 0;
+}
+
+.work-content-box a .sanchos-logo {
+    border-radius: 100%;
+    width: 150px;
+    margin-bottom: 35px;
+}
+
 
 .work-content-box p {
     text-align: center;
-    padding: 20px;
 }
 
 .work-content-box img {
-    max-width: 50%;
-    max-height: 100px;
+    max-height: 150px;
+    padding: 0;
+    transition: 0.2s ease-in-out;
 }
+
+.work-content-box img:hover {
+    transform: scale(1.2);
+}
+
+
 
 .extra {
     background: url(../images/4750866.jpg);
@@ -528,7 +576,8 @@ img {
     }
 
     .banner h3 {
-        font-size: 1em;
+        font-size: 1.2em;
+        padding: 20px 0;
     }
 
     .btn {
@@ -539,8 +588,20 @@ img {
 
     .heading h2 {
         padding: 35px 0 0 0;
-        font-size: 2rem;
+        font-size: 3rem;
     }
+
+    #name {
+        font-size: 3rem;
+    }
+
+    #my-photo img {
+        bottom: 0;
+        padding-bottom: 0;
+        margin-bottom: 35px;
+    }
+    
+    
 
     .content-box h3 {
         font-size: 24px;
@@ -586,6 +647,11 @@ img {
     .contact .heading h2 {
         padding-bottom: 25px;
         margin-top: 0px;
+    }
+
+    .contact-info-box .box .text {
+        margin: 0 auto;
+        width: 90%;
     }
 
     .form-box {
