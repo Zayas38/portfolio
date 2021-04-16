@@ -471,14 +471,14 @@ video:hover {
   margin: 0 auto;
   }
 
-  .container .card a {
+  /* .container .card a {
     position: relative;
     top: 0;
     right: 0;
     margin: 0 auto 120px auto;
     display: flex;
     justify-content: center;
-  }
+  } */
 
   .container .card a {
     position: absolute;
