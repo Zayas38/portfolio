@@ -9,6 +9,10 @@
     font-family: 'Lexend', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #home {
     padding: 0 0 350px 100px;
 }
@@ -477,6 +481,7 @@ img {
     color: #fff;
     flex-direction: column;
     font-weight: 300;
+    text-decoration: none;
 }
 
 .contact-info-box .box .text h3 {
