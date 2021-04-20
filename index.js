@@ -1,3 +1,6 @@
+// ------------------ NAV BAR PORTFOLIO PAGE ------------------
+
+
 window.addEventListener('scroll', function() {
     var header = document.querySelector('header');
     header.classList.toggle('sticky', window.scrollY > 0)
@@ -12,7 +15,7 @@ function toggleMenu() {
 }
 
 
-// ---- MENU CARDS FROM SANCHOS MOCKUP PAGE----
+// -------------------- MENU CARDS FROM SANCHOS MOCKUP PAGE-----------------
 
 $(document).ready(function() {
     $(".myvideos").on("mouseover", function(event) {
@@ -26,20 +29,65 @@ $(document).ready(function() {
 
 
 
-  // TEXT ROTATOR 
 
-  var text = document.getElementById('text');
+  // ----------------- SIGN UP FORM WEBSITE ANIMATION -------------------
 
-var word = text.getElementsByTagName('span');
 
-var i = 0;
+const form = document.querySelector(".form-box");
+const title = document.querySelector(".title");
 
-function rotator() {
-    word[i].style.display = 'none';
-    i = (i + 1) % word.length;
-    word[i].style.display = "initial";
 
-}
-setInterval(rotator, 2000);
+const tl = new TimelineMax();
+
+
+tl.fromTo(title, 2, { x: "-500%" }, { x: "0%", ease: Power2.easeInOut})
+
+// tl.fromTo(title, 2, { y: "0%" }, { y: "100%", ease: Power2.easeInOut})
+
+tl.fromTo(form, 3, { y: "-500%" }, { y: "0%", ease: Power2.easeInOut}, "-=1");
+
+
+
+
+// ----------------- SIGN UP FORM CHECKBOX --------------------
+
+
+
+const submit = document.querySelector(".submit-button");
+
+function disableSubmit() {
+    submit.disabled = true;
+   }
+  
+    function activateButton(element) {
+  
+        if(element.checked) {
+          submit.disabled = false;
+         }
+         else  {
+          submit.disabled = true;
+        }
+  
+    }
+
+
+    // ------------------ TEXT ROTATOR PORTFOLIO PAGE ------------------
+
+    var text = document.getElementById('text');
+
+    var word = text.getElementsByTagName('span');
+    
+    var i = 0;
+    
+    function rotator() {
+        word[i].style.display = 'none';
+        i = (i + 1) % word.length;
+        word[i].style.display = "initial";
+    
+    }
+    setInterval(rotator, 2000);
+    
+
+
 
  
