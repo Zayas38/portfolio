@@ -68,6 +68,7 @@ input {
     outline: none;
     border: 1px solid rgba(1, 1, 1, 0.1);
     background-color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
 }
 
 .submit-button {
