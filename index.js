@@ -72,20 +72,19 @@ function disableSubmit() {
 
 
     // ------------------ TEXT ROTATOR PORTFOLIO PAGE ------------------
+var text = document.getElementById('text');
 
-    var text = document.getElementById('text');
-
-    var word = text.getElementsByTagName('span');
+var word = text.getElementsByTagName('span');
     
-    var i = 0;
+var i = 0;
     
-    function rotator() {
-        word[i].style.display = 'none';
-        i = (i + 1) % word.length;
-        word[i].style.display = "initial";
+function rotator() {
+  word[i].style.display = 'none';
+  i = (i + 1) % word.length;
+  word[i].style.display = "initial";
     
-    }
-    setInterval(rotator, 2000);
+}
+setInterval(rotator, 2000);
     
 
 
