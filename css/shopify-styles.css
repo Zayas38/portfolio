@@ -14,14 +14,15 @@ html {
 
 
 .container {
-    /* position: relative; */
-    max-width: 84%;
     margin: 0 auto;
     background-color:  #1fab89;
     color: #fff;
 }
 
-.container::before {
+
+/* ----------------------- TO EDIT THE GREEN BACKGROUND CONTAINER ------------------- */
+
+/* .container::before {
     content: "";
     display: block;
     position: absolute;
@@ -43,7 +44,7 @@ html {
     background-color: #fff;
     left: -100px;
     top: 700px;
-  }
+  } */
 
 .second-container {
     max-width: 84%;
