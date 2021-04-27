@@ -1,0 +1,182 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+
+    background: url('../images/pexels-sindre-strøm-1073031.jpg') no-repeat center center fixed; 
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+}
+
+
+.title {
+    position: absolute;
+    bottom: 50%;
+    left: 10%;
+}
+
+.title h1 {
+    font-size: 3.6rem;
+    color: #fff;
+}
+
+.form-box {
+    position: absolute;
+    top: 8%;
+    right: 10%;
+    border: 1px solid rgba(1, 1, 1, 0.1);
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+}
+
+
+.form-title h3 {
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+.form-title p {
+    text-align: center;
+    font-weight: lighter;
+    opacity: 0.5;
+    padding: 20px 0 10px ;
+    width: 70%;
+    margin: 0 auto;
+}
+
+input {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    border: 1px solid rgba(1, 1, 1, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+}
+
+.submit-button {
+    background-color: #e84545;
+    color: rgba(255, 255, 255, 0.9);
+    transition: 0.2s ease-in-out;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    background-color: #d72323;
+}
+
+
+a {
+    color: #d72323;
+    text-decoration: none;
+}
+
+/* .checkbox {
+    opacity: 0.5;
+} */
+
+
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: rgba(255, 255, 255, 0.9);
+    padding-right: 20px;
+}
+
+
+
+@media(max-width: 1170px) {
+    .title h1 {
+        font-size: 2.5rem;
+        color: #fff;
+    }
+
+    .form-content {
+        padding: 30px 10px;
+    }
+}
+
+
+
+
+
+
+@media(max-width: 990px) {
+
+    html {
+        max-height: 100vh;
+    }
+
+    .title {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        color: black;
+        text-align: center;
+        padding: 5px 0 ;
+        
+    }
+
+    .title h1 {
+        text-align: center;
+        color: black;
+        font-size: 1.7rem;
+
+    }
+
+    .form-box {
+        position: relative;
+        top: 0;
+        right: 0;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .form-title h3 {
+        text-align: center;
+    }
+
+
+    .copyright {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        padding-top: 10px;
+        }
+
+        .submit-button {
+            opacity: 1;
+        }
+        
+        .submit-button:hover {
+            opacity: 1;
+        }
+/* 
+        element.style {
+            transform: translate(0px, -20%);
+        } */
+    
+}
