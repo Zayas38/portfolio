@@ -28,7 +28,7 @@ p {
 .banner {
     position: relative;
     min-height: 100vh;
-    background: url('../images/Slanted-Gradient.svg') no-repeat center center fixed; 
+    background: url('../images/Slanted-Gradient.svg') no-repeat center center; 
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
