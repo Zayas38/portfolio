@@ -28,7 +28,7 @@ p {
 .banner {
     position: relative;
     min-height: 100vh;
-    background: url('../images/pexels-code11.jpg') no-repeat center center fixed; 
+    background: url('../images/Slanted-Gradient.svg') no-repeat center center fixed; 
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -198,29 +198,27 @@ header.sticky ul li a {
 }
 
  #name {
-    color: #0d7377;
+    color: #fff;
     font-size: 5rem;
 }
 
 span {
-    color: #fff;
+    color: #0a9377;
     display: none;
     
 }
 
 .about-me {
-    background: url('../images/pexels-code8.jpg') no-repeat center center fixed; 
+    background: url('../images/Confetti-Doodles.svg') no-repeat center center fixed; 
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     position: relative;
-    min-height: 100vh;
-    
 }
 
 .about-me h2 {
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 .content {
@@ -244,15 +242,19 @@ span {
 
 
 .work {
-    background: url('../images/pexels-code7.jpg') no-repeat center center fixed; 
+    background: url('../images/Scattered-Forcefields.svg') no-repeat center center fixed; 
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     position: relative;
     /* min-height: 100vh;    ------------- TO CHANGE WHEN I ADD MORE WEBSITES ----------------     */
-    padding-bottom: 30px; /* ------------ TO DELETE PADDING WHEN I'LL ADD MORE WEBSITES ----------- */
+    /* padding-bottom: 30px; ------------ TO DELETE PADDING WHEN I'LL ADD MORE WEBSITES ----------- */
     
+}
+
+.work h2 {
+    padding-top: 100px;
 }
 
 .work .content {
@@ -303,14 +305,18 @@ span {
 
 
 .extra {
-    background: url('../images/pexels-code10.jpg') no-repeat center center fixed; 
+    background: url('../images/Endless-Constellation.svg') no-repeat center center fixed; 
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     position: relative;
     min-width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+}
+
+.extra h2 {
+    padding-top: 100px;
 }
 
 .extra img:hover {
@@ -400,16 +406,20 @@ span {
     max-height: 250px;
 }
 
-.extra-content-box p {
-    text-align: center;
-    padding: 20px;
-}
 
  .contact {
-    background: url(../images/line.png);
+    background: url('../images/Flat-Mountains.svg') no-repeat center center fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
     min-height: 90vh;
-    background-size: cover ;
     position: relative;
+    
+}
+
+.contact h2 {
+    padding-top: 100px;
 }
 
 
@@ -449,6 +459,7 @@ span {
     border: none;
     outline: none;
     background: #222;
+    border: 1px solid #0d7377;
     color: #fff;
     resize: none;
     transition: 0.3s ease-in-out;
