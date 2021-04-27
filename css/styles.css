@@ -209,7 +209,7 @@ span {
 }
 
 .about-me {
-    background: url('../images/Confetti-Doodles.svg') no-repeat center center fixed; 
+    background: url('../images/Confetti-Doodles.svg') no-repeat center center; 
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -242,7 +242,7 @@ span {
 
 
 .work {
-    background: url('../images/Scattered-Forcefields.svg') no-repeat center center fixed; 
+    background: url('../images/Scattered-Forcefields.svg') no-repeat center center; 
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -305,7 +305,7 @@ span {
 
 
 .extra {
-    background: url('../images/Endless-Constellation.svg') no-repeat center center fixed; 
+    background: url('../images/Endless-Constellation.svg') no-repeat center center; 
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -408,7 +408,7 @@ span {
 
 
  .contact {
-    background: url('../images/Flat-Mountains.svg') no-repeat center center fixed; 
+    background: url('../images/Flat-Mountains.svg') no-repeat center center; 
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
