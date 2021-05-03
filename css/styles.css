@@ -24,6 +24,15 @@ p {
     color: #fff;
 }
 
+section {
+    padding: 100px 0;
+}
+
+.separator {
+    border-bottom: 1px solid #0d7377;
+}
+
+
 
 .banner {
     position: relative;
@@ -192,7 +201,6 @@ header.sticky ul li a {
 }
 
 .heading h2 {
-    padding: 30px;
     font-weight: 600;
     font-size: 4rem;
 }
@@ -217,8 +225,12 @@ span {
     position: relative;
 }
 
-.about-me h2 {
+/* .about-me h2 {
     padding-top: 150px;
+} */
+
+.about-me p {
+    text-align: center;
 }
 
 .content {
@@ -233,11 +245,13 @@ span {
 .content-box h3 {
     font-size: 2.8rem;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .content-box p {
     font-size: 1.2rem;
     margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -253,9 +267,9 @@ span {
     
 }
 
-.work h2 {
+/* .work h2 {
     padding-top: 100px;
-}
+} */
 
 .work .content {
     position: relative;
@@ -270,6 +284,10 @@ span {
     max-width: 80%
     margin  0 auto;
     text-align: center;
+}
+
+.work .work-content-pad {
+    padding-top: 100px;
 }
 
 .work-content-box a .shopify-logo{
@@ -315,9 +333,9 @@ span {
     /* min-height: 100vh; */
 }
 
-.extra h2 {
+/* .extra h2 {
     padding-top: 100px;
-}
+} */
 
 .extra img:hover {
     cursor: pointer;
@@ -418,9 +436,9 @@ span {
     
 }
 
-.contact h2 {
+/* .contact h2 {
     padding-top: 100px;
-}
+} */
 
 
 .content {
@@ -442,6 +460,7 @@ span {
     display: flex;
     flex-direction: column;
 }
+
 
 .form-box form h3,
 .contact-info h3 {
@@ -641,7 +660,6 @@ span {
     }
 
     .heading h2 {
-        padding: 35px 0 0 0;
         font-size: 3rem;
     }
 
